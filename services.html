@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>BuildSmart</title>
+  <!-- Подключение CSS -->
+  <link rel="stylesheet" href="index.css">
+  <!-- Подключение шрифта Montserrat -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
+
+</head>
+<body>
+
+  <!-- Шапка (header) -->
+  <header class="header">
+    <div class="header-container">
+      <!-- Логотип -->
+      <div class="logo-block">
+        <img src="photos/logo.png" alt="Логотип BuildSmart" class="logo">
+      </div>
+
+      <!-- Навигация -->
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="about.html">О нас</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+          <li><a href="request.html">Обратная связь</a></li>
+          <li><a href="services.html">Услуги</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+
+
+
+<main class="services-page">
+    <!-- Заголовок страницы (по макету, «Услуги») -->
+    <h1 class="page-title">Услуги</h1>
+
+    <!-- Сетка всех услуг -->
+    <div class="services-grid">
+      <!-- 1-я услуга (кликабельная, переход на ServicesDetailed.html) -->
+      <a class="service-card linkable" href="servicesDetailed.html">
+        <img src="photos/rem.jpg" alt="Ремонт домов" class="service-img">
+        <h3 class="service-title">Ремонт домов</h3>
+        <p class="service-desc">Краткое описание услуги с перечислением работ...</p>
+      </a>
+
+      <!-- 2-я услуга -->
+      <div class="service-card">
+        <img src="photos/rem.jpg" alt="Отделка комнаты" class="service-img">
+        <h3 class="service-title">Отделка комнаты</h3>
+        <p class="service-desc">Краткое описание услуги с перечислением работ...</p>
+      </div>
+
+      <!-- 3-я услуга -->
+      <div class="service-card">
+        <img src="photos/rem.jpg" alt="Дизайнерский ремонт" class="service-img">
+        <h3 class="service-title">Дизайнерский ремонт</h3>
+        <p class="service-desc">Краткое описание услуги с перечислением работ...</p>
+      </div>
+
+      <!-- 4-я услуга -->
+      <div class="service-card">
+        <img src="photos/rem.jpg" alt="Ремонт сантехники" class="service-img">
+        <h3 class="service-title">Ремонт сантехники</h3>
+        <p class="service-desc">Краткое описание услуги с перечислением работ...</p>
+      </div>
+
+      <!-- 5-я услуга -->
+      <div class="service-card">
+        <img src="photos/rem.jpg" alt="Ремонт проводки" class="service-img">
+        <h3 class="service-title">Ремонт проводки</h3>
+        <p class="service-desc">Краткое описание услуги с перечислением работ...</p>
+      </div>
+
+      <!-- 6-я услуга -->
+      <div class="service-card">
+        <img src="photos/rem.jpg" alt="Декоративный ремонт" class="service-img">
+        <h3 class="service-title">Декоративный ремонт</h3>
+        <p class="service-desc">Краткое описание услуги с перечислением работ...</p>
+      </div>
+    </div>
+  </main>
+
+
+
+
+
+
+  <!-- Подвал (footer) -->
+  <footer class="footer">
+    <div class="footer-container">
+      <p class="footer-title">BuildSmart</p>
+      <br>
+      <br>
+      <p>8 (8442) 53-45-00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; BuildSmart@yandex.ru</p>
+    
+    </div>
+  </footer>
+
+  <!-- Подключение jQuery (для работы Bootstrap modal и jQuery-эффектов) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <!-- Подключение Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+  <!-- Подключение пользовательского скрипта -->
+  <script src="script.js"></script>
+
+</body>
